@@ -18,7 +18,9 @@
         for(let i = 0; i < item.length; i++){
             if (isElementInViewport(item[i])) {
                 item[i].classList.add('in_view');
-            }
+            } else {
+item[i].classList.remove('in_view');
+}
         }
     }
 
