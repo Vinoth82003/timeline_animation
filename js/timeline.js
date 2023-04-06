@@ -19,9 +19,6 @@
             if (isElementInViewport(item[i])) {
                 item[i].classList.add('in_view');
             }
-            else{
-                item[i].classList.remove('in_view');
-            }
         }
     }
 
